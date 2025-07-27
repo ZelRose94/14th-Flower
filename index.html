@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14th Flower | Flower Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff8f0;
+      color: #333;
+    }
+    header {
+      background-color: #e91e63;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #f8bbd0;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      text-align: center;
+      padding: 0 1rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 1rem;
+      border-radius: 10px;
+    }
+    .contact, .booking, .payment {
+      background-color: #fce4ec;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 1rem 0;
+    }
+    footer {
+      background-color: #e91e63;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 768px) {
+      .hero {
+        font-size: 1.5rem;
+      }
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>14th Flower</h1>
+    <p>Beautiful Arrangements for Every Occasion</p>
+  </header>
+
+  <nav>
+    <a href="#arrangements">Arrangements</a>
+    <a href="#booking">Book Order</a>
+    <a href="#payment">Payment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Bringing Love to Life, One Flower at a Time
+  </div>
+
+  <section id="arrangements">
+    <h2>Our Arrangements</h2>
+    <p>Here you can grab the most liked flower arrangements and see happy customers who received their orders.</p>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1611078489935-b6fae9ab957b" alt="Flower Bouquet">
+      <img src="https://images.unsplash.com/photo-1585286617500-9f8b2a67c0d3" alt="Sympathy Flowers">
+      <img src="https://images.unsplash.com/photo-1604022924400-d62d9b3aa8bd" alt="Wedding Flowers">
+    </div>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Book an Order</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="order">Order Details:</label><br>
+      <textarea id="order" name="order" rows="4" required></textarea><br><br>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <section id="payment" class="payment">
+    <h2>Payment Channels</h2>
+    <p><strong>GCash:</strong><br>
+    Denzel Rosari<br>
+    0963 698 4985</p>
+    <p><strong>BDO:</strong><br>
+    Denzel Rosari<br>
+    1890 520 630</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📍 We're nestled in beautiful Malagasang II-A, Imus, and proudly serve the lovely communities around Cavite. We can’t wait to help you find the perfect blooms!</p>
+    <p>📞 0912-345-6789</p>
+    <p>📧 contact@14thflower.com</p>
+    <p>📷 Instagram: <a href="https://www.instagram.com/14thflower?igsh=aHlpOGw4MWxqaDY0" target="_blank">@14thflower</a></p>
+    <p>💬 Messenger: <a href="https://m.me/14thflowerPH" target="_blank">Message Us</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 14th Flower. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
